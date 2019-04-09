@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dz_12
 {
+    [Serializable]
     public class Tank
     {
         public string type { get; set; }
